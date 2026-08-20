@@ -1,0 +1,41 @@
+# Environment and secrets
+.env
+.env.*
+*.secret
+*.pem
+*.key
+*.pfx
+*.cer
+*.publishsettings
+*.PublishSettings
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node/SPFx
+node_modules/
+lib/
+dist/
+temp/
+coverage/
+*.log
+
+# VS Code / Visual Studio
+.vscode/
+!.vscode/extensions.json
+.vs/
+bin/
+obj/
+*.user
+*.suo
+
+# Azure Functions local settings
+azure-function/local.settings.json
+
+# Power Platform
+*.zip
+*.msapp
