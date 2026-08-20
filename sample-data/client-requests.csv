@@ -1,0 +1,5 @@
+RequestId,Title,RequestType,Priority,Location,RelatedAssetId,NeedByDate,EstimatedCost,BusinessJustification,Status,Requester,Approver,AssignedTo,CorrelationId,SubmittedDate,LastUpdatedDate
+CRH-1001,Replace damaged lifting equipment,Equipment,High,Houston,EQ-214,2026-08-26,4200,Safety-related equipment replacement,Pending Approval,Alex Morgan,Jordan Lee,,c-1001,2026-08-20T13:00:00Z,2026-08-20T13:15:00Z
+CRH-1002,Preventive maintenance request,Maintenance,Medium,Gulf Operations,PLT-018,2026-08-29,1800,Planned maintenance activity,Assigned,Taylor Kim,Jordan Lee,Casey Patel,c-1002,2026-08-19T16:20:00Z,2026-08-20T12:10:00Z
+CRH-1003,Temporary facility access,Access,Low,Houston,N/A,2026-08-23,0,Temporary project access request,Completed,Riley Chen,Jordan Lee,Sam Brooks,c-1003,2026-08-18T09:30:00Z,2026-08-20T08:45:00Z
+CRH-1004,Field service support,Service,Critical,Coastal Site,SRV-441,2026-08-21,7500,Time-sensitive field support requirement,In Progress,Jamie Patel,Morgan Rivera,Casey Patel,c-1004,2026-08-20T07:10:00Z,2026-08-20T14:00:00Z

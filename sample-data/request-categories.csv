@@ -1,0 +1,6 @@
+CategoryName,DefaultApproverGroup,SLAHours,CostApprovalThreshold,Active
+Equipment,Operations Approvers,24,5000,Yes
+Maintenance,Maintenance Approvers,48,2500,Yes
+Access,Site Access Approvers,8,0,Yes
+Service,Operations Approvers,24,5000,Yes
+Other,Operations Approvers,72,1000,Yes

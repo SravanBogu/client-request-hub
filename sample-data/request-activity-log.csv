@@ -1,0 +1,5 @@
+ActivityId,RequestId,EventType,Details,PerformedBy,OccurredOn,CorrelationId
+ACT-001,CRH-1001,Submitted,Request submitted,Alex Morgan,2026-08-20T13:00:00Z,c-1001
+ACT-002,CRH-1001,ApprovalRequested,Approval sent to assigned approver,System,2026-08-20T13:05:00Z,c-1001
+ACT-003,CRH-1002,Assigned,Request assigned to coordinator,Casey Patel,2026-08-20T12:10:00Z,c-1002
+ACT-004,CRH-1003,Completed,Access request completed,Sam Brooks,2026-08-20T08:45:00Z,c-1003

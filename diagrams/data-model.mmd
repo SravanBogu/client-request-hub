@@ -1,0 +1,31 @@
+erDiagram
+    CLIENT_REQUESTS ||--o{ REQUEST_ACTIVITY_LOG : has
+    REQUEST_CATEGORIES ||--o{ CLIENT_REQUESTS : classifies
+
+    CLIENT_REQUESTS {
+        string RequestId PK
+        string Title
+        string RequestType
+        string Priority
+        string Status
+        string Requester
+        string Approver
+        string AssignedTo
+        string CorrelationId
+    }
+
+    REQUEST_CATEGORIES {
+        string CategoryName PK
+        int SLAHours
+        decimal CostApprovalThreshold
+        boolean Active
+    }
+
+    REQUEST_ACTIVITY_LOG {
+        string ActivityId PK
+        string RequestId FK
+        string EventType
+        string PerformedBy
+        datetime OccurredOn
+        string CorrelationId
+    }
