@@ -118,11 +118,9 @@ No credentials, production endpoints, tenant IDs, or client data should be store
 
 Use Power Automate for business-user workflow, human approvals, Microsoft 365 automation, and low-code process automation.
 
-Use Azure Logic Apps when the integration requires enterprise integration patterns, high volume, complex orchestration, B2B/EDI, hybrid connectivity,
-advanced operational controls, or managed Azure deployment practices.
+Use Azure Logic Apps when the integration requires enterprise integration patterns, high volume, complex orchestration, B2B/EDI, hybrid connectivity, advanced operational controls, or managed Azure deployment practices.
 
-The decision is not low-code versus pro-code. It is selecting the appropriate managed platform for the workflow's users, complexity, risk, and operational
-requirements.
+The decision is not low-code versus pro-code. It is selecting the appropriate managed platform for the workflow's users, complexity, risk, and operational requirements.
 
 ## SPFx decision
 

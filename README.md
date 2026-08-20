@@ -35,6 +35,7 @@ See [Solution Architecture](docs/02-solution-architecture.md).
 - [Data Model](docs/04-data-model.md)
 - [Power Platform Implementation](docs/05-power-platform-implementation.md)
 - [Governance, Security, and ALM](docs/06-governance-security-alm.md)
+- [Integration and Modernization](docs/07-integration-and-modernization.md)
 - [Testing Strategy](docs/08-test-strategy.md)
 - [Delivery Roadmap](docs/09-delivery-roadmap.md)
 
