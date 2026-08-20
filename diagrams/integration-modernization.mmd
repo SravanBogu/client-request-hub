@@ -1,0 +1,20 @@
+flowchart LR
+    U[Business User] --> APP[Power Apps or SharePoint Form]
+    APP --> PP[Power Automate Workflow]
+
+    PP --> SC[Standard Connectors]
+    SC --> M365[SharePoint / Teams / Outlook / Dataverse]
+
+    PP --> CC[Custom Connector]
+    CC --> API[Azure Function / REST API]
+    API --> APIM[API Management - Optional]
+    APIM --> LOB[ERP / Asset / CRM / HRIS / Service Desk]
+
+    APP -. custom user experience .-> SPFX[SPFx React Command Center]
+    PP -. complex enterprise integration .-> LA[Azure Logic Apps]
+
+    ENTRA[Microsoft Entra ID / RBAC] --> APP
+    ENTRA --> API
+    GOV[DLP / Key Vault / Monitoring / ALM] --> PP
+    GOV --> API
+    GOV --> LA
