@@ -16,7 +16,7 @@ low-code-first implementation:
 - Dataverse when the process needs stronger relational data, auditing,
   row-level security, complex business rules, or multiple integrated workflows.
 - SPFx/React for a richer SharePoint command center.
-- Azure Functions/Logic Apps/custom connectors for secure enterprise APIs.
+- Azure Functions, Logic Apps, Standard/custom connectors, API Management for secure and controlled enterprise integration.
 - Copilot Studio and Azure AI Foundry only after governance and integration boundaries are established.
 
 ## Architecture decision guide
