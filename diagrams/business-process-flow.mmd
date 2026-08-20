@@ -1,0 +1,16 @@
+flowchart TD
+    A[Requester submits request] --> B{Required data valid?}
+    B -- No --> A
+    B -- Yes --> C[Status: Submitted]
+    C --> D[Determine category, SLA, and approver]
+    D --> E[Send approval]
+    E --> F{Approved?}
+    F -- No --> G[Status: Rejected<br/>Capture comments and notify requester]
+    F -- Yes --> H[Status: Approved]
+    H --> I[Assign coordinator]
+    I --> J[Status: In Progress]
+    J --> K{Completed?}
+    K -- No --> L[SLA monitoring and escalation]
+    L --> J
+    K -- Yes --> M[Status: Completed]
+    M --> N[Notify requester and write activity log]

@@ -18,4 +18,4 @@ Do not create a public GitHub issue for a security vulnerability.
 
 ## Supported versions
 
-Only the latest `master / main` branch is maintained as a reference implementation.
+Only the latest `main` branch is maintained as a reference implementation.
