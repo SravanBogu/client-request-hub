@@ -1,0 +1,17 @@
+flowchart LR
+    U[Requester] --> UI[Power Apps Canvas App<br/>or SharePoint Form]
+    UI --> DATA[SharePoint Lists MVP<br/>Dataverse at Scale]
+    DATA --> FLOW[Power Automate<br/>Lifecycle and Approvals]
+    FLOW --> AP[Approver]
+    FLOW --> CO[Coordinator Work Queue]
+    FLOW --> N[Teams and Outlook Notifications]
+    DATA --> BI[Power BI Dashboard]
+
+    UI -. Optional custom UX .-> SPFX[SPFx React Command Center]
+    FLOW -. Secure integration .-> API[Azure Function / Logic App]
+    API -. Enterprise systems .-> LOB[ERP / CRM / HRIS / Asset / Service Desk]
+
+    ID[Microsoft Entra ID Groups and RBAC] --> UI
+    ID --> FLOW
+    GOV[DLP, ALM, Audit, Monitoring] --> DATA
+    GOV --> FLOW
