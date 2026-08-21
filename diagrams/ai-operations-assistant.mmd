@@ -1,0 +1,14 @@
+flowchart LR
+    U[Authenticated User] --> AG[Copilot Studio Agent]
+    AG --> K[Approved Knowledge Sources]
+    AG --> A[Power Automate Agent Action]
+    A --> API[Secure API / Azure Function]
+    API --> D[Client Request Hub Data]
+    API --> L[Request Activity Log]
+
+    AG --> H[Human Escalation]
+    ID[Microsoft Entra ID and RBAC] --> AG
+    ID --> API
+    G[DLP, Logging, Evaluation, Responsible AI] --> AG
+    G --> A
+    G --> API
